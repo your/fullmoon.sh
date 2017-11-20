@@ -12,13 +12,15 @@ You need to have [`jq`](https://stedolan.github.io/jq/) installed on your local 
 
 ![image](example.gif)
 
+**A `fullmoon.ics` iCalendar file is automatically generated in the script folder at every execution.**
+
 ## Notes
 
 This bash script queries the ["Astronomical Applications API v2.0.1"](http://aa.usno.navy.mil/data/docs/api.php#phase) from the [Astronomical Applications Department of the U.S. Naval Observatory](http://aa.usno.navy.mil/index.php) (which I find more accurate than writing your own calculations). Be polite.
 
 ## Why not Google?
 
-I need to feel useful on a Sunday afternoon. Plus a further development could be to use this to produce a calendar to subscribe to.
+I need to feel useful on a Sunday afternoon.
 
 **And I wanted to demonstrate that you don't need another scripting language when you have bash, sometimes.**
 
